@@ -81,8 +81,7 @@ class CourseService {
             token=""
         }
         return axios.post(API_URL + "/enroll/" +_id ,
-        {},
-        {
+        {},{
             headers:{
                 Authorization:token
             }
