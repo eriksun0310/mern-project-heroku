@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = "http://localhost:8080/api/courses"
+const API_URL = "https://mernproject-672925d6eea3.herokuapp.com/api/courses"
 
 class CourseService {
     //製作新課程
